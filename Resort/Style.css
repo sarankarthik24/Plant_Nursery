@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+.container{
+    width: 100%;
+    background-color: black;
+    margin: auto;
+}
+.navbar{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+}
+img{
+    margin: 0px 650px 0px 50px;
+    padding: 10px;
+    }
+.logo{
+    display: flex;
+    color: rgb(42, 107, 12);
+}
+i{
+    font-size: 30px;
+    margin: 10px 0px;
+    padding: 15px 0px;
+}
+p{
+    font-size: 20px;
+    padding: 10px;
+}
+p:hover{
+    color: rgb(254, 134, 5);
+}
+i:hover{
+    color: rgb(254, 134, 5);
+}
+ul{
+    list-style-type: none;
+    display: flex;   
+}
+ul li{
+    padding: 10px;
+    margin: auto;
+    }
+li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: aliceblue;
+    margin: 30px;
+}
+a:hover{
+    color:rgb(103, 235, 235);
+}
+.pic img{
+    width: 100%;
+    margin: auto;
+    padding: 0%;
+    height: 700px;
+    opacity: 0.4;
+}
+.pic img:hover{
+    opacity: 1;
+}
+.pic{
+    position: relative;
+}
+.offer{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.offer p{
+    font-size: 40px;
+    color: aliceblue;
+    margin: 80px 10px 10px 10px;
+    }
+.offer h1{
+    font-size: 120px;
+    color: aliceblue;
+    margin: auto;   
+    }
+.offer button{
+    font-size: 35px;
+    color: aliceblue;
+    background-color: orange;
+    margin: 80px 680px;
+    padding: 15px;
+    border-radius: 50px;
+    font-family: "Roboto Slab", serif;
+}
+.offer button:hover{
+    background-color: greenyellow;
+}
+.icons{
+    background-color: white;
+    width: 100%;
+    display: flex;
+}
+.items{
+    width: 10.97%;
+    border: 1px solid lightgray;
+}
+.items p{
+    font-size: 28px;
+    text-align: center;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.content{
+    position: absolute;
+    display: none;
+    z-index: 2;
+    background-color: black;
+    }
+.content a{
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    margin: auto;
+    padding: 10px;
+}
+.content a:hover{
+    background-color: black;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover li{
+    background-color: rgb(246, 149, 22);
+}
+.search{
+    background-color: white;
+}
+.search h1{
+    font-size: 70px;
+    text-align: center;
+    color: rgb(26, 26, 109);
+    padding: 100px 10px 20px 10px;
+    margin: auto;
+    font-family: "Prata", serif;
+}
+.search h3{
+    font-size: 45px;
+    text-align: center;
+    color: rgb(26, 26, 109);
+    margin: 10px 10px 50px 10px;
+    font-family: "Prata", serif;
+}
+.search-items{
+    width: 100%;
+    display: flex;
+}
+.value{
+    width:20%;
+    font-family: "Roboto Slab", serif;
+}
+.search-items h2{
+    font-size: 20px;
+    font-variant: small-caps;
+    margin: auto;
+    padding: 10px;
+}
+.search-items input{
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Prata", serif;
+}
+.search button{
+    font-size: 30px;
+    background-color: rgb(15, 15, 61);
+    color: white;
+    margin: 50px 660px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: "Roboto Slab", serif;
+}
+.search button:hover{
+    background-color: rgb(60, 101, 18);
+}
+.box{
+    display: flex;
+    width:100%;
+}
+.box1{
+    width: 50%;
+}
+table, th, td{
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: 30px;
+    color: gray;
+}
+.box1 img{
+    margin-top: 50px;
+}
+.about h1{
+    font-size: 70px;
+    text-align: center;
+    color: rgb(26, 26, 109);
+    margin: auto;
+    padding: 10px;
+    font-family: "Prata", serif;
+}
+.about h2{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(26, 26, 109);
+    margin: auto;
+    padding: 10px;
+    font-variant: small-caps;
+    font-family: "Prata", serif;
+}
+.room h1{
+    font-size: 70px;
+    text-align: center;
+    color: rgb(26, 26, 109);
+    margin: auto;
+    padding: 10px;
+    font-family: "Prata", serif;
+}
+.room h2{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(26, 26, 109);
+    margin: auto;
+    padding: 10px 10px 80px 10px;
+    font-variant: small-caps;
+    font-family: "Prata", serif;
+}
+.apartment{
+    width: 100%;
+    display: flex;
+    }
+.apart{
+    width: 30%;
+    border: 1px solid lightgray;
+    margin: 10px;
+    padding: 10px;
+}
+.apart img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.apart h3{
+    font-size: 35px;
+    padding: 10px 100px;
+    margin: auto;
+}
+.apart p{
+    font-size: 24px;
+    margin: auto;
+    color: gray;
+    text-align: left;
+}
+.apart h4{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+.rm{
+    display: flex;
+    margin: auto;
+}
+.rm p{
+    padding: 10px 20px;
+    margin: auto;
+}
+.Rs{
+    display: flex;
+    margin: auto;
+}
+.Rs i{
+    margin: auto;
+    padding: 10px;
+    color: gray;
+}
+.room button{
+    font-size: 30px;
+    background-color: rgb(15, 15, 61);
+    color: white;
+    margin: 60px 650px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: "Roboto Slab", serif;
+}
+.room button:hover{
+    background-color: rgb(60, 101, 18);
+}
+.client{
+    width: 100%;
+    display: flex;
+    margin: 200px 100px;
+    padding: 20px;
+}
+.client h1{
+    color: rgb(25, 23, 136);
+    text-align: center;
+    padding: 10px 40px;
+    font-size: 120px;
+}
+.client h2{
+    font-size: 50px;
+    color: rgb(25, 23, 136);
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+.detail{
+    width: 30%;
+}
+.gallery{
+    width: 100%;
+    margin: 100px 50px;
+}
+.images{
+    width: 50%;
+    margin: auto;
+    float: left;
+}
+.list{
+    width: 15%;
+    display: flex;
+}
+.images img{
+    margin: 10px;
+    padding: 0%;
+}
+.images h1{
+    font-size: 70px;
+    text-align: left;
+    color: rgb(26, 26, 109);
+    padding: 1px 100px;
+    margin: auto;
+    font-family: "Prata", serif;
+}
+.images h2{
+    font-size: 50px;
+    text-align: left;
+    color: rgb(107, 107, 109);
+    padding: 1px 100px;
+    margin: auto;
+}
+.images p{
+    font-size: 30px;
+    text-align: left;
+    color: rgb(107, 107, 109);
+    padding: 10px 100px;
+    margin: auto;
+}
+.images button{
+    font-size: 30px;
+    background-color: rgb(15, 15, 61);
+    color: white;
+    margin: 30px 200px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: "Roboto Slab", serif;
+}
+.images button:hover{
+    background-color: rgb(60, 101, 18);
+}
+.house{
+    position: absolute;
+    left: 50px;
+    top: 900px;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+}
+.rent{
+    width: 50%;
+}
+.rent h1{
+    font-size: 40px;
+    text-align: left;
+    color: white;
+    padding: 10px 50px;
+    margin: auto;
+    font-family: "Prata", serif;
+}
+.rent p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 10px 250px 10px 50px;
+    margin: auto;
+}
+.rent button{
+    font-size: 25px;
+    background-color: rgb(15, 15, 61);
+    color: white;
+    margin: 30px 200px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: "Roboto Slab", serif;
+}
+.rent button:hover{
+    background-color: orange;
+}
+.all{
+    width: 100%;
+    display: flex;
+}
+.single{
+    width: 25%;
+    border: 3px solid rgb(231, 248, 254);
+    margin: 20px;
+    padding: 40px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+.single i{
+    color: rgb(246, 189, 83);
+}
+.review img{
+    width: 100px;
+    margin-left: 150px;
+}
+.review h1{
+    font-size: 70px;
+    text-align: center;
+    color: rgb(26, 26, 109);
+    margin: auto;
+    padding: 100px 10px 10px 10px;
+    font-family: "Prata", serif;
+}
+.review h2{
+    font-size: 50px;
+    font-variant: small-caps;
+    text-align: center;
+    color: rgb(26, 26, 109);
+    padding: 10px;
+    margin: auto;
+}
+.review h3{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(83, 200, 250);
+    padding: 1px;
+    margin: 2px;
+}
+.review p{
+    font-size: 25px;
+    color: rgb(107, 107, 109);
+    text-align: center;
+}
+.suit{
+    display: flex;
+}
+.ico{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+.suit p{
+    text-align:left;
+    color: rgb(56, 55, 55);
+    margin: auto;
+    padding: 10px;
+}
+.apart h2{
+    font-size: 30px;
+    margin-left: 30px;
+    color: green;
+}
+.blog h1{
+    font-size: 70px;
+    text-align: center;
+    color: rgb(26, 26, 109);
+    margin: auto;
+    padding: 100px 10px 10px 10px;
+    font-family: "Prata", serif;
+}
+.blog h3{
+    font-size: 40px;
+    font-variant: small-caps;
+    text-align: center;
+    color: rgb(26, 26, 109);
+    padding: 10px;
+    margin: auto;
+}
+.blog button{
+    font-size: 25px;
+    background-color: rgb(15, 15, 61);
+    color: white;
+    margin: 30px 700px;
+    padding: 20px;
+    border-radius: 50px;
+    font-family: "Roboto Slab", serif;
+}
+.blog button:hover{
+    background-color: orange;
+}
+.about-rent{
+    width: 100%;
+    display: flex;
+}
+.category{
+    width: 30%;
+    margin: 30px;
+}
+
+.insta{
+    display: flex;
+}
+.insta img{
+    margin: 10px;
+}
+.category h1{
+    font-size: 40px;
+    text-align: left;
+    color: orange;
+    margin: auto;
+    padding: 100px 10px 10px 10px;
+    
+}
+.category button{
+    font-size: 25px;
+    background-color: orange;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: left;
+    font-family: "Roboto Slab", serif;
+}
+.category button:hover{
+    background-color: rgb(15, 15, 61);
+}
+.category p{
+    font-size: 23px;
+    color: gray;
+    font-family: "Roboto Slab", serif;
+}
+.category li{
+    font-size: 23px;
+    color: gray;
+    font-family: "Roboto Slab", serif;
+    margin: 10px;
+    padding: 10px;
+    list-style-type:square;
+}
+p{
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    padding: 10px;
+    text-align: center;    
+}
